@@ -1,12 +1,11 @@
 .hero {
-  @apply flex flex-col justify-center relative px-4 border-b-4 border-black;
+  @apply flex flex-col justify-center relative px-4 border-b-4 border-black py-8;
 
   min-height: 100vh;
-  min-height: 100dvh;
 }
 
 .hero__header {
-  @apply mb-1 text-6xl text-white font-extrabold tracking-wider md:text-8xl md:mb-3 md:tracking-normal xl:mt-8;
+  @apply mb-1 text-6xl text-white font-extrabold tracking-wider md:text-8xl md:mb-3 md:tracking-normal;
 
   -webkit-text-stroke: 2px #000;
   text-shadow: 3px 3px #000;

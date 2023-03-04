@@ -8,6 +8,7 @@ module.exports = {
         "main-red": "#FF6363",
         "main-green": "#8FFF9B",
         "main-blue": "#63FFFF",
+        "main-purple": "#928FFF",
       },
     },
   },
