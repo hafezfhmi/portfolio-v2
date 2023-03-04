@@ -2,13 +2,21 @@
   @apply flex flex-col justify-center relative px-4 border-b-4 border-black;
 
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .hero__header {
-  @apply mb-1 mt-8 text-6xl text-white font-extrabold tracking-wider md:text-8xl md:mb-3 md:tracking-normal;
+  @apply mb-1 text-6xl text-white font-extrabold tracking-wider md:text-8xl md:mb-3 md:tracking-normal xl:mt-8;
 
   -webkit-text-stroke: 2px #000;
   text-shadow: 3px 3px #000;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.hero__subHeader {
+  @apply mb-8 text-3xl font-medium md:text-5xl 2xl:mb-16;
+
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .hero__highlight {
