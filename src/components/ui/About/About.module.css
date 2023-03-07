@@ -1,0 +1,5 @@
+.skill {
+  @apply p-2 rounded-full border-2 border-black;
+
+  box-shadow: 3px 3px #000;
+}
