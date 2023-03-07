@@ -98,6 +98,7 @@ const Hero = () => {
               alt="Cat wizard"
               width={605}
               height={707}
+              priority
               className="z-10 pointer-events-none"
               ref={catRef}
             />

@@ -31,7 +31,7 @@
 .cat__container {
   @apply absolute -bottom-1 h-40 w-64 bg-main-red border-4 border-black 2xl:h-56 2xl:w-96;
 
-  box-shadow: 4px 5px #000;
+  box-shadow: 6px 6px #000;
 }
 
 .bubble {
@@ -44,7 +44,7 @@
   @apply absolute -top-full -left-1 w-64 h-40 bg-main-red border-4 border-b-0 border-black rounded-t-full 2xl:h-56 2xl:w-96;
 
   content: "";
-  box-shadow: 4px 0px #000;
+  box-shadow: 6px 0px #000;
 }
 
 @media (min-width: 768px) {
