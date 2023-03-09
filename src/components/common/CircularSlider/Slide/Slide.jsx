@@ -1,5 +1,6 @@
 import { forwardRef } from "react";
 import Image from "next/image";
+import styles from "./Slide.module.css";
 
 const Slide = forwardRef(function Slide({ slide }, ref) {
   return (
@@ -8,7 +9,7 @@ const Slide = forwardRef(function Slide({ slide }, ref) {
         ref={ref}
         className="absolute bottom-full left-50 -translate-x-1/2 mx-4"
       >
-        <div className="w-64 inline-block border-2 border-black rounded-3xl bg-white overflow-hidden sm:w-72 md:w-80 lg:w-96 xl:w-[500px] 2xl:w-[690px]">
+        <div className={styles.slide}>
           <Image
             src={slide.img}
             alt={slide.title}
