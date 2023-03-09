@@ -8,7 +8,7 @@ module.exports = {
         "main-red": "#FF6363",
         "main-green": "#8FFF9B",
         "main-blue": "#63FFFF",
-        "main-darkBlue": "#0A66C2",
+        "main-darkBlue": "#63A1FF",
         "main-purple": "#928FFF",
         "main-greyBg": "#EEEEEE",
       },

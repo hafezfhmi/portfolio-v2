@@ -7,7 +7,7 @@ const Slide = forwardRef(function Slide({ slide }, ref) {
     <div className="absolute bottom-1/2 left-1/2 -translate-x-1/2 origin-bottom w-2 h-1/2">
       <div
         ref={ref}
-        className="absolute bottom-full left-50 -translate-x-1/2 mx-4"
+        className="absolute bottom-full left-50 -translate-x-1/2 mx-4 mb-6 md:mb-20"
       >
         <div className={styles.slide}>
           <Image
