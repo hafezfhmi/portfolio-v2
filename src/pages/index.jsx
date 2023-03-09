@@ -1,12 +1,14 @@
-import About from "@/components/ui/About/About";
-import Hero from "@/components/ui/Hero/Hero";
+import About from "@/components/ui/About";
+import Hero from "@/components/ui/Hero";
+import Projects from "@/components/ui/Projects";
 
 const Index = () => {
   return (
     <>
       <Hero />
       <About />
-      <p className="bg-red-500 h-56">helo world</p>
+      <Projects />
+      <p>Contact</p>
     </>
   );
 };

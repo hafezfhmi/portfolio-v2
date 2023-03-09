@@ -1,0 +1,5 @@
+.slide__item__container {
+  @apply absolute bottom-full left-1/2 -translate-x-1/2 w-64 border-2 border-black rounded-3xl overflow-hidden md:w-96 md:h-64;
+
+  box-shadow: 3px 3px #000;
+}

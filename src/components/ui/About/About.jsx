@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <section className="border-b-4 border-black bg-main-purple">
-      <h2 className="py-3 pl-4 border-b-4 border-black text-6xl font-extrabold uppercase">
+      <h2 className="py-4 pl-4 border-b-4 border-black text-6xl font-extrabold uppercase">
         About
       </h2>
       <div className="grid md:grid-cols-2 text-3xl">
@@ -21,10 +21,10 @@ const About = () => {
             impact on the user.
           </p>
         </div>
-        <div className="py-6 px-4">
+        <div className="pt-6 pb-14 px-4">
           <p className="mb-10">What I&apos;ve worked with:</p>
 
-          <div className="grid grid-cols-6 gap-2 text-center text-base md:text-lg xl:text-3xl">
+          <div className="grid grid-cols-6 gap-3 text-center text-base md:text-lg xl:text-3xl">
             <p className={styles.skill + " col-span-3 bg-main-yellow"}>
               JavaScript
             </p>

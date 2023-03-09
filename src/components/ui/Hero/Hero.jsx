@@ -11,14 +11,14 @@ const Hero = () => {
   const bubble4Ref = useRef(null);
   const headerRef = useRef(null);
   const subHeaderRef = useRef(null);
-  const didAnimate = useRef(false);
+  const didAnimateRef = useRef(false);
 
   useEffect(() => {
-    if (didAnimate.current) {
+    if (didAnimateRef.current) {
       return;
     }
 
-    didAnimate.current = true;
+    didAnimateRef.current = true;
 
     let tl1 = gsap.timeline({ repeat: -1, yoyo: true });
     let tl2 = gsap.timeline({ repeat: -1, yoyo: true });
@@ -99,7 +99,7 @@ const Hero = () => {
               width={605}
               height={707}
               priority
-              className="z-10 pointer-events-none"
+              className="z-10 pointer-events-none select-none"
               ref={catRef}
             />
           </div>

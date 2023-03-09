@@ -1,7 +1,5 @@
 .hero {
-  @apply flex flex-col justify-center relative px-4 border-b-4 border-black py-8;
-
-  min-height: 100vh;
+  @apply flex flex-col justify-center relative px-4 border-b-4 border-black py-14;
 }
 
 .hero__header {
@@ -48,10 +46,6 @@
 }
 
 @media (min-width: 768px) {
-  .hero {
-    min-height: calc(100vh - 56px);
-  }
-
   .hero__header {
     -webkit-text-stroke: 3px #000;
     text-shadow: 4px 4px #000;
