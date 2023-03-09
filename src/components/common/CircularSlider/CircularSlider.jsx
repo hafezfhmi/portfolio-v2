@@ -185,7 +185,7 @@ const CircularSlider = ({ projects }) => {
     ScrollTrigger.create({
       onEnter: rotateSlide,
       trigger: sectionNode,
-      start: "bottom bottom",
+      start: "80% bottom",
       once: true,
     });
 
