@@ -7,15 +7,15 @@ gsap.registerPlugin(ScrollTrigger);
 
 let projects = [
   {
+    title: "CatGallery Webapp",
+    img: "/images/project-2.png",
+    bg: "bg-main-red",
+  },
+  {
     title: "KucingPunk Website",
     img: "/images/project-1.png",
     award: "/images/mwa-month.png",
     bg: "bg-main-yellow",
-  },
-  {
-    title: "CatGallery Webapp",
-    img: "/images/project-2.png",
-    bg: "bg-main-red",
   },
   {
     title: "Portfolio Website",
