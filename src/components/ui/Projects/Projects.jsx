@@ -7,6 +7,7 @@ let projects = [
     bg: "bg-main-red",
     desc: "A cat gallery full-stack webapp that allows the user to upload their cat image and interact with each other",
     skills: ["React", "HTML/CSS", "Node.js", "Express.js", "MySQL", "Docker"],
+    github: "https://github.com/hafezfhmi/CatGallery",
   },
   {
     title: "KucingPunk Website",
@@ -15,6 +16,8 @@ let projects = [
     bg: "bg-main-yellow",
     desc: "An NFT project's website that display the detail of the NFT. Achieved 10k+ MYR in profit and awarded Site of the Month by Malaysia Website Awards",
     skills: ["React", "Next.js", "HTML/CSS", "Node.js"],
+    github: "https://github.com/hafezfhmi/kucingpunk.com",
+    site: "https://www.kucingpunk.com",
   },
   {
     title: "Portfolio Website",
@@ -22,6 +25,8 @@ let projects = [
     bg: "bg-main-blue",
     desc: "My portfolio website to showcase my skills and related details on the industry",
     skills: ["React", "Next.js", "HTML/CSS", "TailwindCSS"],
+    github: "https://github.com/hafezfhmi/portfolio",
+    site: "http://hafezfhmi.com",
   },
 ];
 
