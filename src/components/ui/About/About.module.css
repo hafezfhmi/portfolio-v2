@@ -1,11 +1,9 @@
 .skill {
   @apply p-2 border-2 border-black rounded-full duration-200 cursor-pointer;
-
-  box-shadow: 3.5px 3.5px #000;
 }
 
 .skill:hover {
-  @apply -translate-y-2;
+  @apply -translate-y-1;
 
-  box-shadow: 3.5px 10px #000;
+  box-shadow: 3.5px 6px #000;
 }

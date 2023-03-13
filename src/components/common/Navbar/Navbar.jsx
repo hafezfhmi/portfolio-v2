@@ -9,7 +9,7 @@ const navigationList = [
 
 const Navbar = () => {
   return (
-    <div className="hidden justify-between items-center sticky top-0 border-t-4 border-b-4 border-black bg-white text-3xl font-bold z-[100] md:flex">
+    <div className="hidden justify-between items-center sticky top-0 border-t-2 border-b-2 border-black bg-white text-3xl font-bold z-[100] md:flex">
       <Link href="/" className="ml-6 mr-12">
         HFz
       </Link>

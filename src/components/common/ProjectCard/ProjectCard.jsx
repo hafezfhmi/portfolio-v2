@@ -1,8 +1,9 @@
 import Image from "next/image";
+import styles from "./ProjectCard.module.css";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="flex flex-col border-2 border-black rounded-3xl bg-white overflow-hidden">
+    <div className="flex flex-col border-2 border-black rounded-3xl bg-white overflow-hidden duration-200">
       <div className="flex justify-center">
         <Image
           src={project.img}
@@ -29,13 +30,7 @@ const ProjectCard = ({ project }) => {
 
           <div className="flex flex-wrap gap-y-2 gap-x-3 ">
             {project.skills.map((skill, i) => (
-              <p
-                key={i}
-                className={
-                  project.bg +
-                  " py-0.5 px-2 border-2 border-black rounded-full text-sm md:px-3 md:text-base xl:text-lg 2xl:text-xl"
-                }
-              >
+              <p key={i} className={project.bg + " " + styles.skills}>
                 {skill}
               </p>
             ))}

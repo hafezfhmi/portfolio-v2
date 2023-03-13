@@ -27,8 +27,8 @@ let projects = [
 
 const Projects = () => {
   return (
-    <section className="py-10 border-b-4 border-black">
-      <h2 className="mb-16 text-5xl text-center font-extrabold uppercase">
+    <section className="py-10 border-b-2 border-black">
+      <h2 className="mb-16 text-5xl text-center font-bold uppercase">
         Projects
       </h2>
       <div className="grid gap-6 px-6 lg:grid-cols-3 lg:gap-12 lg:auto-rows-fr">

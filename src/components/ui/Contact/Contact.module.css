@@ -1,5 +1,9 @@
-.skill {
-  @apply p-2 rounded-full border-2 border-black;
+.social {
+  @apply flex justify-center items-center w-16 h-16 border-2 border-black rounded-full bg-white duration-200;
+}
 
-  box-shadow: 3px 3px #000;
+.social:hover {
+  @apply -translate-y-1;
+
+  box-shadow: 3.5px 6px #000;
 }

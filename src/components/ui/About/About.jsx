@@ -2,12 +2,12 @@ import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <section className="border-b-4 border-black bg-main-purple">
-      <h2 className="py-3 pl-6 border-b-4 border-black text-5xl font-extrabold uppercase">
+    <section className="border-b-2 border-black bg-main-purple">
+      <h2 className="py-3 pl-6 border-b-2 border-black text-5xl font-bold uppercase">
         About
       </h2>
       <div className="grid md:grid-cols-2 text-lg md:text-xl xl:text-2xl 2xl:text-3xl">
-        <div className="flex flex-col justify-center py-8 px-6 border-b-4 border-black md:border-b-0 md:border-r-4">
+        <div className="flex flex-col justify-center py-8 px-6 border-b-2 border-black md:border-b-0 md:border-r-2">
           <p>
             I&apos;m a full-stack developer with a passion for creating scalable
             web applications that solve complex problems and deliver exceptional
