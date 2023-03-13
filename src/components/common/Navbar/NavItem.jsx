@@ -7,7 +7,7 @@ const NavItem = ({ text, link }) => {
       className="group relative py-2 pl-6 pr-12 border-l-4 border-black bg-black text-white uppercase overflow-hidden"
     >
       {text}
-      <span className="absolute w-full h-full left-0 top-full bg-white mix-blend-difference duration-700 pointer-events-none group-hover:top-0" />
+      <span className="absolute w-full h-full left-0 top-full bg-white mix-blend-difference duration-200 pointer-events-none group-hover:top-0" />
     </Link>
   );
 };
