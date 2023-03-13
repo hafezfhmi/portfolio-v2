@@ -78,15 +78,13 @@ const Hero = () => {
 
   return (
     <section className={styles.hero}>
-      <div className="text-center z-30">
+      <div className="text-center">
         <h1 className={styles.hero__header} ref={headerRef}>
           I am Hafez Fahmi
         </h1>
         <p className={styles.hero__subHeader} ref={subHeaderRef}>
           A Full-Stack{" "}
-          <mark className={styles.hero__highlight}>JavaScript</mark>{" "}
-          <br className="md:hidden" />
-          Developer
+          <mark className={styles.hero__highlight}>JavaScript</mark> Developer
         </p>
       </div>
       <div className="flex justify-center relative">

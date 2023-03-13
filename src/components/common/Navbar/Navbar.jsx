@@ -9,8 +9,8 @@ const navigationList = [
 
 const Navbar = () => {
   return (
-    <div className="hidden justify-between items-center sticky top-0 border-t-4 border-b-4 border-black bg-white text-3xl font-bold md:flex">
-      <Link href="/" className="ml-4 mr-12">
+    <div className="hidden justify-between items-center sticky top-0 border-t-4 border-b-4 border-black bg-white text-3xl font-bold z-[100] md:flex">
+      <Link href="/" className="ml-6 mr-12">
         HFz
       </Link>
       <nav className="flex items-center">
