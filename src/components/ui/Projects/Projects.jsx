@@ -32,7 +32,7 @@ let projects = [
 
 const Projects = () => {
   return (
-    <section className="py-10 border-b-2 border-black">
+    <section id="projects" className="py-10 border-b-2 border-black">
       <h2 className="mb-16 text-5xl text-center font-bold uppercase">
         Projects
       </h2>

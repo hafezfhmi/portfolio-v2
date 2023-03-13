@@ -30,6 +30,7 @@ const Contact = () => {
 
   return (
     <section
+      id="contact"
       ref={sectionRef}
       className="border-b-2 border-black bg-main-darkBlue overflow-hidden"
     >

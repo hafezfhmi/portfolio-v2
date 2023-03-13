@@ -3,7 +3,10 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <section className="border-b-2 border-black bg-main-purple">
-      <h2 className="py-3 pl-6 border-b-2 border-black text-5xl font-bold uppercase">
+      <h2
+        id="about"
+        className="py-3 pl-6 border-b-2 border-black text-5xl font-bold uppercase"
+      >
         About
       </h2>
       <div className="grid md:grid-cols-2 text-lg md:text-xl xl:text-2xl 2xl:text-3xl">

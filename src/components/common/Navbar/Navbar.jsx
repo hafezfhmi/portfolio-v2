@@ -2,14 +2,14 @@ import Link from "next/link";
 import NavItem from "./NavItem";
 
 const navigationList = [
-  { text: "About", link: "/" },
-  { text: "Projects", link: "/" },
-  { text: "Contact", link: "/" },
+  { text: "About", link: "/#about" },
+  { text: "Projects", link: "/#projects" },
+  { text: "Contact", link: "/#contact" },
 ];
 
 const Navbar = () => {
   return (
-    <div className="hidden justify-between items-center sticky top-0 border-t-2 border-b-2 border-black bg-white text-3xl font-bold z-[100] md:flex">
+    <div className="hidden justify-between items-center border-t-2 border-b-2 border-black bg-white text-3xl font-bold md:flex">
       <Link href="/" className="ml-6 mr-12">
         HFz
       </Link>

@@ -1,0 +1,12 @@
+.mobileNav__button {
+  @apply w-12 h-12 fixed top-4 right-4 p-3 border-2 border-black rounded-full bg-white cursor-pointer select-none z-[100];
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mobileNav__nav {
+  @apply flex-col justify-center items-center gap-y-5 fixed top-0 left-0 w-screen text-2xl bg-white z-[99];
+
+  height: 100vh;
+  height: 100dvh;
+}
