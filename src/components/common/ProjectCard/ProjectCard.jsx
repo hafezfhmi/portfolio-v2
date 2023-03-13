@@ -39,6 +39,7 @@ const ProjectCard = ({ project }) => {
               {project.github && (
                 <a
                   href={project.github}
+                  target="_blank"
                   className={project.bg + " " + styles.projectLink}
                 >
                   <svg
@@ -53,6 +54,7 @@ const ProjectCard = ({ project }) => {
               {project.site && (
                 <a
                   href={project.site}
+                  target="_blank"
                   className={project.bg + " " + styles.projectLink}
                 >
                   <svg
