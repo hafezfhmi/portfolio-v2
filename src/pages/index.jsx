@@ -1,7 +1,7 @@
-import About from "@/components/ui/About";
-import Contact from "@/components/ui/Contact";
 import Hero from "@/components/ui/Hero";
+import About from "@/components/ui/About";
 import Projects from "@/components/ui/Projects";
+import Contact from "@/components/ui/Contact";
 
 const Index = () => {
   return (
@@ -9,6 +9,7 @@ const Index = () => {
       <Hero />
       <About />
       <Projects />
+      <Contact />
     </>
   );
 };
