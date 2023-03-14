@@ -54,6 +54,10 @@ const About = () => {
             <p className={styles.skill + " col-span-3 bg-main-darkBlue"}>CSS</p>
             <p className={styles.skill + " col-span-3 bg-main-red"}>Jest</p>
             <p className={styles.skill + " col-span-3 bg-white"}>Cypress</p>
+            <p className={styles.skill + " col-span-3 bg-white"}>Github</p>
+            <p className={styles.skill + " col-span-3 bg-white"}>
+              Github Actions
+            </p>
           </div>
         </div>
       </div>

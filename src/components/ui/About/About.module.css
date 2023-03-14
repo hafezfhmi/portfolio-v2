@@ -1,5 +1,5 @@
 .skill {
-  @apply p-2 border-2 border-black rounded-full duration-200 cursor-pointer;
+  @apply flex justify-center items-center p-2 border-2 border-black rounded-full duration-200 cursor-pointer;
 }
 
 .skill:hover {
