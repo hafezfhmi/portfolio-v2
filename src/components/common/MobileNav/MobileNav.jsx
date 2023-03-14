@@ -42,7 +42,9 @@ const MobileNav = () => {
       </svg>
 
       <nav
-        className={`${showNav ? "flex" : "hidden"} ${styles.mobileNav__nav}`}
+        className={
+          (!showNav ? "translate-x-full " : "") + styles.mobileNav__nav
+        }
       >
         {navigationList.map((navigationItem) => (
           <Link

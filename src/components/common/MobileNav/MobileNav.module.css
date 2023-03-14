@@ -5,7 +5,7 @@
 }
 
 .mobileNav__nav {
-  @apply flex-col justify-center items-center gap-y-5 fixed top-0 left-0 w-screen text-2xl bg-white z-[99];
+  @apply flex flex-col justify-center items-center gap-y-5 fixed top-0 left-0 w-screen border-l-2 border-black text-2xl bg-white z-[99] transition-transform duration-200;
 
   height: 100vh;
   height: 100dvh;
