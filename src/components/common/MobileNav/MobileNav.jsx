@@ -1,6 +1,7 @@
 import { useState } from "react";
-import styles from "./MobileNav.module.css";
 import Link from "next/link";
+import { RemoveScroll } from "react-remove-scroll";
+import styles from "./MobileNav.module.css";
 
 const navigationList = [
   { text: "About", link: "/#about" },
@@ -16,47 +17,49 @@ const MobileNav = () => {
   };
 
   return (
-    <div className="md:hidden">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="currentColor"
-        onClick={handleShowNav}
-        className={styles.mobileNav__button}
-      >
-        {showNav ? (
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M6 18L18 6M6 6l12 12"
-          />
-        ) : (
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-          />
-        )}
-      </svg>
+    <RemoveScroll enabled={showNav} removeScrollBar={false}>
+      <div className="md:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          onClick={handleShowNav}
+          className={styles.mobileNav__button}
+        >
+          {showNav ? (
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          ) : (
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          )}
+        </svg>
 
-      <nav
-        className={
-          (!showNav ? "translate-x-full " : "") + styles.mobileNav__nav
-        }
-      >
-        {navigationList.map((navigationItem) => (
-          <Link
-            key={navigationItem.text}
-            href={navigationItem.link}
-            onClick={handleShowNav}
-          >
-            {navigationItem.text}
-          </Link>
-        ))}
-      </nav>
-    </div>
+        <nav
+          className={
+            (!showNav ? "translate-x-full " : "") + styles.mobileNav__nav
+          }
+        >
+          {navigationList.map((navigationItem) => (
+            <Link
+              key={navigationItem.text}
+              href={navigationItem.link}
+              onClick={handleShowNav}
+            >
+              {navigationItem.text}
+            </Link>
+          ))}
+        </nav>
+      </div>
+    </RemoveScroll>
   );
 };
 
