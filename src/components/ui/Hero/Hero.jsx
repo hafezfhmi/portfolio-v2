@@ -88,7 +88,8 @@ const Hero = () => {
         </h1>
         <p className={styles.hero__subHeader} ref={subHeaderRef}>
           A Full-Stack{" "}
-          <mark className={styles.hero__highlight}>JavaScript</mark> Developer
+          <mark className={styles.hero__highlight}>JavaScript</mark>{" "}
+          <br className="md:hidden" /> Developer
         </p>
       </div>
       <div className="flex justify-center relative">
