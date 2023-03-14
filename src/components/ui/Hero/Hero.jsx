@@ -4,6 +4,7 @@ import { gsap } from "gsap";
 import styles from "./Hero.module.css";
 
 const Hero = () => {
+  const sectionRef = useRef(null);
   const catRef = useRef(null);
   const bubble1Ref = useRef(null);
   const bubble2Ref = useRef(null);
@@ -23,6 +24,9 @@ const Hero = () => {
     let tl1 = gsap.timeline({ repeat: -1, yoyo: true });
     let tl2 = gsap.timeline({ repeat: -1, yoyo: true });
     let tlText = gsap.timeline();
+
+    // Initial load
+    tlText.set(sectionRef.current, { opacity: 100 });
 
     // text and cat animation
     tlText
@@ -77,7 +81,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className={styles.hero}>
+    <section ref={sectionRef} className={styles.hero}>
       <div className="text-center">
         <h1 className={styles.hero__header} ref={headerRef}>
           I am Hafez Fahmi

@@ -1,5 +1,5 @@
 .hero {
-  @apply flex flex-col justify-center relative px-6 border-b-2 border-black py-14;
+  @apply flex flex-col justify-center relative px-6 border-b-2 border-black py-14 opacity-0;
 
   min-height: 100vh;
   min-height: 100dvh;
