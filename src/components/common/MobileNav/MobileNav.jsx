@@ -48,7 +48,13 @@ const MobileNav = () => {
             (showNav ? "left-0 " : "left-full ") + styles.mobileNav__nav
           }
         >
-          <p className="absolute top-4 left-4 text-3xl font-bold">HFz</p>
+          <Link
+            href="/"
+            onClick={handleShowNav}
+            className="absolute top-4 left-4 text-3xl font-bold"
+          >
+            HFz
+          </Link>
           {navigationList.map((navigationItem) => (
             <Link
               key={navigationItem.text}
