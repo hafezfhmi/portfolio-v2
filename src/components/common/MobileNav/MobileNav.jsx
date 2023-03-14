@@ -45,7 +45,7 @@ const MobileNav = () => {
 
         <nav
           className={
-            (!showNav ? "translate-x-full " : "") + styles.mobileNav__nav
+            (showNav ? "left-0 " : "left-full ") + styles.mobileNav__nav
           }
         >
           <p className="absolute top-4 left-4 text-3xl font-bold">HFz</p>
