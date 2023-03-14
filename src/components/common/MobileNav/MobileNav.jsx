@@ -48,6 +48,7 @@ const MobileNav = () => {
             (!showNav ? "translate-x-full " : "") + styles.mobileNav__nav
           }
         >
+          <p className="absolute top-4 left-4 text-3xl font-bold">HFz</p>
           {navigationList.map((navigationItem) => (
             <Link
               key={navigationItem.text}
