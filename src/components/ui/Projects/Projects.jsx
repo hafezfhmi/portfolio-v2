@@ -2,12 +2,12 @@ import ProjectCard from "@/components/common/ProjectCard";
 
 let projects = [
   {
-    title: "CatGallery Webapp",
+    title: "Meow Gallery Webapp",
     img: "/images/project-2.png",
     bg: "bg-main-red",
     desc: "A cat gallery full-stack webapp that allows the user to upload their cat image and interact with each other",
     skills: ["React", "HTML/CSS", "Node.js", "Express.js", "MySQL", "Docker"],
-    github: "https://github.com/hafezfhmi/CatGallery",
+    github: "https://github.com/hafezfhmi/Meow-Gallery",
   },
   {
     title: "KucingPunk Website",
